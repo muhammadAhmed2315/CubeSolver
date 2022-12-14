@@ -20,7 +20,6 @@ pip install -r requirements.txt
 
 * Implement the cube using a different data structure. This will allow for a pattern database that uses the same amount of memory but is able to represent more cube states, and a higher number of states in the database is likely to result in significant performance increases.
 * Use tree pruning in order to reduce the branching factor of the tree to below 18
-
 <br><br>
 # Project Demo
 Video example: [https://www.youtube.com/watch?v=r2CcIj203fQ](https://www.youtube.com/watch?v=r2CcIj203fQ))
