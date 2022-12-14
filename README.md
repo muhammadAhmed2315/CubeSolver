@@ -23,4 +23,4 @@ pip install -r requirements.txt
 
 <br><br>
 # Project Demo
-Video example: [https://www.youtube.com/watch?v=5ACiHCeikwo](https://www.youtube.com/watch?v=5ACiHCeikwo)
+Video example: [https://www.youtube.com/watch?v=r2CcIj203fQ](https://www.youtube.com/watch?v=r2CcIj203fQ))
