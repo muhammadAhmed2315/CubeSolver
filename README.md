@@ -1,5 +1,5 @@
 # CubeSolver
-A Python program is able to solve a Rubik's Cube. Users are able to scramble the cube, apply individual moves (e.g., U, U', F, F', etc.) as well as being able to see a 2D visualisation of the (net of) the cube. The program uses the IDA* algorithm, and for the heuristic function, generates a pattern database (by default the database contains ~ 10.5 million key value pairs, which take ~ 650MB to store in memory). The cube.py file contains the Cube class (which contains the functions for manipulating the cube), as well as a function for generating the pattern database. The solver.py file contains IDA_star class, which solves the cube. Finally, the project.py class 
+Python program for solving a Rubik's Cube. Users are able to scramble the cube, apply individual moves (e.g., U, U', F, F', etc.) as well as being able to see a 2D visualisation of the (net of) the cube. The program uses the IDA* algorithm, and for the heuristic function, generates a pattern database (by default the database contains ~ 10.5 million key value pairs, which take ~ 650MB to store in memory). The cube.py file contains the Cube class (which contains the functions for manipulating the cube), as well as a function for generating the pattern database. The solver.py file contains IDA_star class, which solves the cube. Finally, the project.py class 
 # Getting Started
 
 ## Prerequisites
@@ -22,4 +22,4 @@ pip install -r requirements.txt
 * Use tree pruning in order to reduce the branching factor of the tree to below 18
 <br><br>
 # Project Demo
-Video example: [https://www.youtube.com/watch?v=r2CcIj203fQ](https://www.youtube.com/watch?v=r2CcIj203fQ))
+Video example: [https://www.youtube.com/watch?v=r2CcIj203fQ](https://www.youtube.com/watch?v=r2CcIj203fQ)
