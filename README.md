@@ -1,5 +1,5 @@
 # CubeSolver
-Python program for solving a Rubik's Cube. Users are able to scramble the cube, apply individual moves (e.g., U, U', F, F', etc.) as well as being able to see a 2D visualisation of the (net of) the cube. The program uses the IDA* algorithm, and for the heuristic function, generates a pattern database (by default the database contains ~ 10.5 million key value pairs, which take ~ 650MB to store in memory). The cube.py file contains the Cube class (which contains the functions for manipulating the cube), as well as a function for generating the pattern database. The solver.py file contains IDA_star class, which solves the cube. Finally, the project.py class 
+Python program for solving a Rubik's Cube. Users are able to scramble the cube, apply individual moves (e.g., U, U', F, F', etc.) as well as being able to see a 2D visualisation of the (net of) the cube. The program uses the IDA* algorithm, and for the heuristic function, generates a pattern database (by default the database contains ~ 10.5 million key value pairs, which take ~ 650MB to store in memory). The cube.py file contains the Cube class (which contains the functions for manipulating the cube), as well as a function for generating the pattern database. The solver.py file contains IDA_star class, which solves the cube.
 # Getting Started
 
 ## Prerequisites
